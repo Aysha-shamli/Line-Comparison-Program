@@ -21,8 +21,11 @@ public class Line {
         if (line1Length == line2Length){
             System.out.println("The lines are equal");
         }
-        else{
-            System.out.println("The lines are not equal");
+        else if(line1Length >= line2Length){
+            System.out.println("The length of line1 is Greatherthan line2");
+        }
+        else if(line1Length <= line2Length){
+            System.out.println("The length of line1 is Lessthan line2");
         }
     }
 }
